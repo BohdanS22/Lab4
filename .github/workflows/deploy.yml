@@ -17,7 +17,7 @@ jobs:
         with:
           args: --acl public-read --delete
         env:
-          AWS_S3_BUCKET: cmtr-a9mdgrbi-bucket-1751147103
+          AWS_S3_BUCKET: cmtr-a9mdgrbi-bucket-1751148376
           AWS_ACCESS_KEY_ID: AKIA2Y6WD4HZBDC62EP5
           AWS_SECRET_ACCESS_KEY: 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
           AWS_REGION: us-east-1
