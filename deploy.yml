@@ -19,4 +19,4 @@ jobs:
         aws-region: us-east-1
 
     - name: Sync files to S3
-      run: aws s3 sync . s3://cmtr-a9mdgrbi-bucket-1751114344 --delete --acl public-read --exclude ".github/workspaces/Lab4/deploy.yml"
+      run: aws s3 sync . s3://cmtr-a9mdgrbi-bucket-1751114344 --delete --acl public-read --exclude ".github/*"
